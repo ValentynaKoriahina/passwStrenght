@@ -1,0 +1,4 @@
+<div class="regForm">
+  <app-password-form (classWeak)="updateWeakClass($event)" (classMedium)="updateMediumClass($event)" (classStrong)="updateStrongClass($event)"></app-password-form>
+  <app-password-complexity [classWeak]="classWeak" [classMedium]="classMedium" [classStrong]="classStrong"></app-password-complexity>
+</div>
